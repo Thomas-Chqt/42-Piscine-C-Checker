@@ -1,4 +1,4 @@
-EXO=C_01
+EXO=
 
 CC=gcc
 
