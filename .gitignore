@@ -2,4 +2,6 @@ Output/*
 repo/*
 repo
 Temp/*
+Temp*
+Output*
 .DS_Store
