@@ -1,0 +1,20 @@
+Test with 42 / 40 :
+Result : 1
+Modulo : 2
+
+Test with 42 / 0 :
+Result : 0
+Modulo : 0
+
+Test with 42 / -42 :
+Result : -1
+Modulo : 0
+
+Test with -42 / -42 :
+Result : 1
+Modulo : 0
+
+Test with -42 / -40 :
+Result : 1
+Modulo : -2
+
