@@ -1,6 +1,6 @@
 EXO=
 
-CC=gcc
+CC=cc
 
 CFLAGS="-Wall -Wextra -Werror"
 
@@ -10,7 +10,7 @@ MAIN_FILES_DIR=Main_files/$EXO
 
 TEMP_DIR=Temp
 
-REPO_DIR=Repo
+REPO_DIR=repo
 
 rm -r $OUTPUT_DIR
 
@@ -23,7 +23,7 @@ norminette -R CheckForbiddenSourceHeader $REPO_DIR/*/*
 
 echo "\nCompile and run..."
 
-for nbr in 00 01 02 03 04 05 06 07 08
+for nbr in 00 01 02 03 04 05 06 07 08 09 10 11 12
 do
     mkdir $TEMP_DIR
 
