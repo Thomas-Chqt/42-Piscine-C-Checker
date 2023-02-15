@@ -1,0 +1,8 @@
+ft_strcpy : abcd -> abcd -> abcd
+strcpy : abcd -> abcd
+
+ft_strcpy : a -> a -> a
+strcpy : a -> a -> a
+
+ft_strcpy :  ->  -> 
+strcpy :  ->  -> 

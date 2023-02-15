@@ -3,5 +3,5 @@ repo/*
 repo
 Temp/*
 Temp*
-Output*
+Output/*
 .DS_Store

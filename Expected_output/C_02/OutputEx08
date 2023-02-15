@@ -1,0 +1,19 @@
+ABCD : 
+Return -> abcd
+Str -> abcd
+
+abcd : 
+Return -> abcd
+Str -> abcd
+
+aBcD : 
+Return -> abcd
+Str -> abcd
+
+Ab23C : 
+Return -> ab23c
+Str -> ab23c
+
+ : 
+Return -> 
+Str -> 

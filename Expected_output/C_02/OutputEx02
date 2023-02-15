@@ -1,0 +1,6 @@
+Test with 'ABCD' 	-> 1
+Test with 'abcd' 	-> 1
+Test with '1234'	-> 0
+Test with 'AB2CD' 	-> 0
+Test with '!#$f4ffFA' 	-> 0
+Test with '' 		-> 1

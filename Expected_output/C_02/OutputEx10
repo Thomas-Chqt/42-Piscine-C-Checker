@@ -1,0 +1,34 @@
+src  	: 41 42 43 44 00
+dest 	: AA AA AA AA AA AA
+ft_strlcpy 5 ...
+return  : 4
+src  	: 41 42 43 44 00
+dest 	: 41 42 43 44 00 AA
+
+src  	: 41 42 43 44 00
+dest 	: AA AA AA AA AA AA
+ft_strlcpy 3 ...
+return  : 4
+src  	: 41 42 43 44 00
+dest 	: 41 42 00 AA AA AA
+
+src  	: 41 42 00
+dest 	: AA AA AA AA AA AA
+ft_strlcpy 5 ...
+return  : 2
+src  	: 41 42 00
+dest 	: 41 42 00 AA AA AA
+
+src  	: 
+dest 	: AA AA AA AA AA AA
+ft_strlcpy 5 ...
+return  : 0
+src  	: 
+dest 	: 00 AA AA AA AA AA
+
+src  	: 41 42 43 44 00
+dest 	: AA AA AA AA AA AA
+ft_strlcpy 0 ...
+return  : 4
+src  	: 41 42 43 44 00
+dest 	: AA AA AA AA AA AA

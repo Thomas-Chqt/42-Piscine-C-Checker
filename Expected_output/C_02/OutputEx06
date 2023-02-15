@@ -1,0 +1,5 @@
+Test with 'ABCD' 	-> 1
+Test with '' 		-> 0
+Test with '12a34' 	-> 0
+Test with 'A' 		-> 0
+Test with '' 		-> 1
