@@ -16,3 +16,9 @@ Serch '' in 'ABCD' (strstr)	 -> return 'ABCD'
 Serch '' in '' (ft_strstr)	 -> return ''
 Serch '' in '' (strstr)		 -> return ''
 
+Serch 'ABC' in 'A' (ft_strstr)	-> return '(null)'
+Serch 'ABC' in 'A' (strstr)	-> return '(null)'
+
+Serch 'ABD' in 'ABCDABD' (ft_strstr)	-> return 'ABD'
+Serch 'ABD' in 'ABCDABD' (strstr)	-> return 'ABD'
+

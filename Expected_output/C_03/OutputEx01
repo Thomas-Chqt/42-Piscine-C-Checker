@@ -25,3 +25,6 @@ ft_strncmp 5 -> 104 | strncmp 5 -> 104
 'hello world' and '' : 
 ft_strncmp 0 -> 0 | strncmp 0 -> 0
 
+'Hell' and 'Helloo' : 
+ft_strncmp 5 -> -111 | strncmp 5 -> -111
+
