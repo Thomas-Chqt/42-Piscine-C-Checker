@@ -1,0 +1,4 @@
+Serch CD in ABCD -> return CD
+Serch AB in ABCD -> return ABCD
+Serch DE in ABCD -> return (null)
+Serch AB in  -> return (null)

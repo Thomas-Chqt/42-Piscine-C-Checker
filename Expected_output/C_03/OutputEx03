@@ -1,0 +1,4 @@
+'AA AA 00 FF FF' + 'BB BB 00' (2) = 'AA AA BB BB 00' / 'AA AA BB BB 00'
+'AA AA 00 FF FF' + 'BB BB 00' (1) = 'AA AA BB 00 FF' / 'AA AA BB 00 FF'
+'AA AA 00 FF FF' + '00 00 00' (2) = 'AA AA 00 FF FF' / 'AA AA 00 FF FF'
+'00 00 00 00 00' + 'BB BB 00' (2) = 'BB BB 00 00 00' / 'BB BB 00 00 00'

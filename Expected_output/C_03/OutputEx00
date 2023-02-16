@@ -1,0 +1,12 @@
+'Hello, world!' and 'Hello, world!' : 
+ft_strcmp -> 0 | strcmp -> 0
+
+'Hello, world!' and 'Hello, everyone!' : 
+ft_strcmp -> 18 | strcmp -> 18
+
+'' and '' : 
+ft_strcmp -> 0 | strcmp -> 0
+
+'Hello, world!' and 'Hello,ÿveryone!' : 
+ft_strcmp -> 11 | strcmp -> 11
+
