@@ -1,6 +1,24 @@
-'AA AA 00 FF FF' + 'BB BB 00 FF FF' (5) = '4' / 'AA AA BB BB 00'
-'AA AA 00 FF FF' + 'BB BB 00 FF FF' (4) = '4' / 'AA AA BB 00 FF'
-'AA AA 00 FF FF' + 'BB BB 00 FF FF' (3) = '4' / 'AA AA 00 FF FF'
-'AA AA 00 FF FF' + 'BB 00 FF'       (5) = '3' / 'AA AA BB 00 FF'
-'00 FF FF FF FF' + 'BB BB 00 FF FF' (1) = '2' / '00 FF FF FF FF'
-'AA AA 00 FF FF' + '00 FF FF FF FF' (5) = '2' / 'AA AA 00 FF FF'
+'AA AA 00 FF FF' + 'BB BB 00 FF FF' ft_strlcat(5)	= '4' / 'AA AA BB BB 00'
+'AA AA 00 FF FF' + 'BB BB 00 FF FF' strlcat(5)		= '4' / 'AA AA BB BB 00'
+
+'AA AA 00 FF FF' + 'BB BB 00 FF FF' ft_strlcat(4)	= '4' / 'AA AA BB 00 FF'
+'AA AA 00 FF FF' + 'BB BB 00 FF FF' strlcat(4)		= '4' / 'AA AA BB 00 FF'
+
+'AA AA 00 FF FF' + 'BB BB 00 FF FF' ft_strlcat(3)	= '4' / 'AA AA 00 FF FF'
+'AA AA 00 FF FF' + 'BB BB 00 FF FF' strlcat(3)		= '4' / 'AA AA 00 FF FF'
+
+'AA AA 00 FF FF' + 'BB 00 FF'       ft_strlcat(5)	= '3' / 'AA AA BB 00 FF'
+'AA AA 00 FF FF' + 'BB 00 FF'       strlcat(5)		= '3' / 'AA AA BB 00 FF'
+
+'00 FF FF FF FF' + 'BB BB 00 FF FF' ft_strlcat(1)	= '2' / '00 FF FF FF FF'
+'00 FF FF FF FF' + 'BB BB 00 FF FF' strlcat(1)		= '2' / '00 FF FF FF FF'
+
+'AA AA 00 FF FF' + '00 FF FF FF FF' ft_strlcat(5)	= '2' / 'AA AA 00 FF FF'
+'AA AA 00 FF FF' + '00 FF FF FF FF' strlcat(5)		= '2' / 'AA AA 00 FF FF'
+
+'AA AA AA AA 00' + '00 BB BB BB FF' ft_strlcat(3)	= '3' / 'AA AA AA AA 00'
+'AA AA AA AA 00' + '00 BB BB BB FF' strlcat(3)		= '3' / 'AA AA AA AA 00'
+
+'AA AA AA AA 00' + 'BB BB 00 BB FF' ft_strlcat(3)	= '5' / 'AA AA AA AA 00'
+'AA AA AA AA 00' + 'BB BB 00 BB FF' strlcat(3)		= '5' / 'AA AA AA AA 00'
+

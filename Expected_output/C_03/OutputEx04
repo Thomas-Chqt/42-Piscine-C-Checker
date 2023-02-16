@@ -1,4 +1,18 @@
-Serch CD in ABCD -> return CD
-Serch AB in ABCD -> return ABCD
-Serch DE in ABCD -> return (null)
-Serch AB in  -> return (null)
+Serch 'CD' in 'ABCD' (ft_strstr) -> return 'CD'
+Serch 'CD' in 'ABCD' (strstr)	 -> return 'CD'
+
+Serch 'AB' in 'ABCD' (ft_strstr) -> return 'ABCD'
+Serch 'AB' in 'ABCD' (strstr)	 -> return 'ABCD'
+
+Serch 'DE' in 'ABCD' (ft_strstr) -> return '(null)'
+Serch 'DE' in 'ABCD' (strstr)	 -> return '(null)'
+
+Serch 'AB' in '' (ft_strstr)	 -> return '(null)'
+Serch 'AB' in '' (strstr) 	 -> return '(null)'
+
+Serch '' in 'ABCD' (ft_strstr)	 -> return 'ABCD'
+Serch '' in 'ABCD' (strstr)	 -> return 'ABCD'
+
+Serch '' in '' (ft_strstr)	 -> return ''
+Serch '' in '' (strstr)		 -> return ''
+

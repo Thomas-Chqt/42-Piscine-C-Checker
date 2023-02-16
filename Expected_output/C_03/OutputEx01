@@ -10,3 +10,18 @@ ft_strncmp 5 -> 0 | strncmp 5 -> 0
 'Hello, world!' and 'Hello,ÿveryone!' : 
 ft_strncmp 17 -> 11 | strncmp 17 -> 11
 
+'Hello, world!' and 'Hello, everyone!' : 
+ft_strncmp 0 -> 0 | strncmp 0 -> 0
+
+'hello world' and 'hello' : 
+ft_strncmp 5 -> 0 | strncmp 5 -> 0
+
+'' and 'hello world' : 
+ft_strncmp 5 -> -104 | strncmp 5 -> -104
+
+'hello world' and '' : 
+ft_strncmp 5 -> 104 | strncmp 5 -> 104
+
+'hello world' and '' : 
+ft_strncmp 0 -> 0 | strncmp 0 -> 0
+
