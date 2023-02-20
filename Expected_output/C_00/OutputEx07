@@ -1,6 +1,12 @@
-42
--42
-402
--402
-2147483647
--2147483648
+42-4204022147483647-2147483648Test with 42 : 
+
+Test with -42 : 
+
+Test with 0 : 
+
+Test with 402 : 
+
+Test with MAX_INT : 
+
+Test with MIN_INT : 
+
