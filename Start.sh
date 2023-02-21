@@ -1,4 +1,4 @@
-EXO=C_01
+EXO=C_
 
 CC=cc
 
@@ -16,18 +16,18 @@ rm -r $OUTPUT_DIR
 
 mkdir $OUTPUT_DIR
 
-echo "Check Norme...\n"
+echo "==========================================================Check Norme==========================================================\n"
 
 norminette -R CheckForbiddenSourceHeader $REPO_DIR/*/*
 
 
-echo "\nCompile and run..."
+echo "\n"
 
-for nbr in 00 01 02 03 04 05 06 07 08
+for nbr in 00 01 02 03 04 05
 do
     mkdir $TEMP_DIR
 
-	echo "\nCompile and run"$nbr"..."
+	echo "\n==========================================================Compile and run"$nbr"==========================================================\n"
 
 	cp $REPO_DIR/ex$nbr/*  $TEMP_DIR
 	cp $MAIN_FILES_DIR/*$nbr*  $TEMP_DIR
@@ -46,10 +46,10 @@ do
 	rm -r $TEMP_DIR
 done
 
-echo "Compare output..."
+echo "==========================================================Compare output==========================================================\n"
 
 
-for nbr in 00 01 02 03 04 05 06 07 08
+for nbr in 00 01 02 03 04 05
 do
 	echo "\nCompare ex"$nbr"..."
 	diff -U 3 $OUTPUT_DIR/OutputEx$nbr $EXPECTED_OUTPUT_DIR/OutputEx$nbr | cat -e

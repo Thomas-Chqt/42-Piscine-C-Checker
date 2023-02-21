@@ -1,0 +1,51 @@
+Test with AA in base 0123456789ABCDEF :
+170
+
+Test with AA in base  :
+0
+
+Test with AA in base 012345678 9ABCDEF :
+0
+
+Test with AA in base 012345678+9ABCDEF :
+0
+
+Test with AA in base 012345678-9ABCDEF :
+0
+
+Test with AA in base 0123456789AACDEF :
+0
+
+Test with FF in base 0123456789ABCDEF :
+255
+
+Test with 10101010 in base 01 :
+170
+
+Test with nvn in base poneyvif :
+170
+
+Test with  in base 0123456789ABCDEF :
+0
+
+Test with 255 in base 0123456789 :
+255
+
+Test with -255 in base 0123456789 :
+-255
+
+Test with +nvnab in base poneyvif :
+170
+
+Test with     ---+--+AAab567 in base 0123456789ABCDEF :
+-170
+
+Test with --+--+1234ab567 in base 0123456789 :
+1234
+
+Test with      1234ab567 in base 0123456789ABCDEF :
+4660
+
+Test with abc in base 0123456789ABCDEF :
+0
+

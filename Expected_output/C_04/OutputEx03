@@ -1,0 +1,24 @@
+Test with : '    ---+--+1234ab567'
+atoi : -1234
+
+Test with : '--+--+1234ab567'
+atoi : 1234
+
+Test with : '     1234ab567'
+atoi : 1234
+
+Test with : '-1234'
+atoi : -1234
+
+Test with : '+1234ab'
+atoi : 1234
+
+Test with : '+ab'
+atoi : 0
+
+Test with : 'abc'
+atoi : 0
+
+Test with : '1234'
+atoi : 1234
+

@@ -1,0 +1,18 @@
+Test with : 'Hello World !'
+ft_strlen : 13
+
+Test with : 'abcdefghijklmnopqrstuvwxyz'
+ft_strlen : 26
+
+Test with : 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+ft_strlen : 416
+
+Test with : 'œuf â l'école'
+ft_strlen : 13
+
+Test with : 'こんにちは 🐱'
+ft_strlen : 7
+
+Test with : '		'
+ft_strlen : 3
+
