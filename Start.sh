@@ -38,9 +38,7 @@ do
 
 	$CC $CFLAGS -o $TEMP_DIR/Ex$nbr $TEMP_DIR/*.o
 
-	./$TEMP_DIR/Ex$nbr
-
-	./$TEMP_DIR/Ex$nbr > $OUTPUT_DIR/OutputEx$nbr
+	./$TEMP_DIR/Ex$nbr | tee $OUTPUT_DIR/OutputEx$nbr
 
 
 	rm -r $TEMP_DIR
