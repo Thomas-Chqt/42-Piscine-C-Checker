@@ -1,4 +1,4 @@
-EXO=C_
+EXO=C_05
 
 CC=cc
 
@@ -23,7 +23,7 @@ norminette -R CheckForbiddenSourceHeader $REPO_DIR/*/*
 
 echo "\n"
 
-for nbr in 00 01 02 03 04 05
+for nbr in 00 01 02 03 04 05 06 07 08
 do
     mkdir $TEMP_DIR
 
@@ -47,7 +47,7 @@ done
 echo "==========================================================Compare output==========================================================\n"
 
 
-for nbr in 00 01 02 03 04 05
+for nbr in 00 01 02 03 04 05 06 07 08
 do
 	echo "\nCompare ex"$nbr"..."
 	diff -U 3 $OUTPUT_DIR/OutputEx$nbr $EXPECTED_OUTPUT_DIR/OutputEx$nbr | cat -e
