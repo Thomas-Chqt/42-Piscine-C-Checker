@@ -1,0 +1,18 @@
+Split 'a/b/c/d' by '/'
+{ a, b, c, d }
+
+Split 'ab/cd/ef/gh' by '/'
+{ ab, cd, ef, gh }
+
+Split 'a/b c/d' by '/ '
+{ a, b, c, d }
+
+Split 'a / b - - c / d' by '-/ '
+{ a, b, c, d }
+
+Split '' by '-/'
+{ }
+
+Split 'a/b/c/d' by ''
+{ a/b/c/d }
+

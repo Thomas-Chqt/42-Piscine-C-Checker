@@ -1,0 +1,14 @@
+Convert '255'	from base '0123456789'	to base '0123456789ABCDEF' :	'FF'
+Convert 'FF'	from base '0123456789ABCDEF'	to base '0123456789' :	'255'
+Convert 'AA'	from base '0123456789ABCDEF'	to base '01' :	'10101010'
+Convert 'AA'	from base '0123456789ABCDEF'	to base 'poneyvif' :	'nvn'
+Convert 'AA'	from base '0123456789ABCDEF'	to base '0123456789ABCDEF' :	'AA'
+Convert '170'	from base '0123456789'	to base '0123456789' :	'170'
+Convert '0'	from base '0123456789'	to base '0123456789ABCDEF' :	'0'
+Convert 'AA'	from base '012345678 9ABCDEF'	to base '0123456789' :	(null)
+Convert 'AA'	from base '012345678+9ABCDEF'	to base '0123456789' :	(null)
+Convert 'AA'	from base '012345678-9ABCDEF'	to base '0123456789' :	(null)
+Convert 'AA'	from base '0123456789AACDEF'	to base '0123456789' :	(null)
+Convert '    ---+--+AAab567'	from base '0123456789ABCDEF'	to base '0123456789' :	'-170'
+Convert '--+--+1234ab567'	from base '0123456789'	to base '0123456789ABCDEF' :	'4D2'
+Convert '     1234ab567'	from base '0123456789'	to base '0123456789ABCDEF' :	'4D2'

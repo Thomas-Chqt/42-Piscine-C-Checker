@@ -1,0 +1,24 @@
+Test with :
+	Size : 3
+	Strs : { a, b, c }
+	Sep : ', '
+-> 'a, b, c'
+
+Test with :
+	Size : 3
+	Strs : { ab, cd, ef }
+	Sep : '/'
+-> 'ab/cd/ef'
+
+Test with :
+	Size : 3
+	Strs : { ab, cd, ef }
+	Sep : ''
+-> 'abcdef'
+
+Test with :
+	Size : 0
+	Strs : {  }
+	Sep : '/'
+-> ''
+
